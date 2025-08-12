@@ -1,9 +1,7 @@
 use futures::StreamExt;
 use poise::{
     Context, CreateReply, command,
-    serenity_prelude::{
-        CacheHttp, ChannelId, CreateActionRow, CreateButton, GuildId, Permissions, UserId,
-    },
+    serenity_prelude::{CacheHttp, ChannelId, CreateActionRow, CreateButton, GuildId, UserId},
 };
 use redb::Database;
 use std::sync::Arc;
